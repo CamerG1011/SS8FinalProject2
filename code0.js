@@ -16,6 +16,8 @@ gdjs.SpawnCode.GDTriggerToNextObjects1= [];
 gdjs.SpawnCode.GDTriggerToNextObjects2= [];
 gdjs.SpawnCode.GDBlackOutObjects1= [];
 gdjs.SpawnCode.GDBlackOutObjects2= [];
+gdjs.SpawnCode.GDVersionObjects1= [];
+gdjs.SpawnCode.GDVersionObjects2= [];
 
 
 gdjs.SpawnCode.mapOfGDgdjs_9546SpawnCode_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.SpawnCode.GDPlayerHitboxObjects1});
@@ -417,6 +419,8 @@ gdjs.SpawnCode.GDTriggerToNextObjects1.length = 0;
 gdjs.SpawnCode.GDTriggerToNextObjects2.length = 0;
 gdjs.SpawnCode.GDBlackOutObjects1.length = 0;
 gdjs.SpawnCode.GDBlackOutObjects2.length = 0;
+gdjs.SpawnCode.GDVersionObjects1.length = 0;
+gdjs.SpawnCode.GDVersionObjects2.length = 0;
 
 gdjs.SpawnCode.eventsList1(runtimeScene);
 gdjs.SpawnCode.GDPlayerHitboxObjects1.length = 0;
@@ -435,6 +439,8 @@ gdjs.SpawnCode.GDTriggerToNextObjects1.length = 0;
 gdjs.SpawnCode.GDTriggerToNextObjects2.length = 0;
 gdjs.SpawnCode.GDBlackOutObjects1.length = 0;
 gdjs.SpawnCode.GDBlackOutObjects2.length = 0;
+gdjs.SpawnCode.GDVersionObjects1.length = 0;
+gdjs.SpawnCode.GDVersionObjects2.length = 0;
 
 
 return;

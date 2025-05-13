@@ -35,6 +35,30 @@ gdjs.Museum4Code.GDImageObjects2= [];
 
 
 gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.Museum4Code.GDPlayerHitboxObjects1});
+gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDTriggerToNextObjects1Objects = Hashtable.newFrom({"TriggerToNext": gdjs.Museum4Code.GDTriggerToNextObjects1});
+gdjs.Museum4Code.asyncCallback10047068 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum4Code.localVariables);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Credits", false);
+}{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
+}gdjs.Museum4Code.localVariables.length = 0;
+}
+gdjs.Museum4Code.eventsList0 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Museum4Code.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Museum4Code.asyncCallback10047068(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.Museum4Code.GDPlayerHitboxObjects1});
 gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDTriggerToSpawnObjects1Objects = Hashtable.newFrom({"TriggerToSpawn": gdjs.Museum4Code.GDTriggerToSpawnObjects1});
 gdjs.Museum4Code.asyncCallback10424364 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum4Code.localVariables);
@@ -42,7 +66,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum4Code.localVariables
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }gdjs.Museum4Code.localVariables.length = 0;
 }
-gdjs.Museum4Code.eventsList0 = function(runtimeScene) {
+gdjs.Museum4Code.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -63,7 +87,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum4Code.localVariables
 {gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 25, 1);
 }gdjs.Museum4Code.localVariables.length = 0;
 }
-gdjs.Museum4Code.eventsList1 = function(runtimeScene) {
+gdjs.Museum4Code.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -86,7 +110,7 @@ gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDObjectInteractionAreaObjects1
 gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.Museum4Code.GDPlayerHitboxObjects1});
 gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDObjectInteractionAreaObjects1Objects = Hashtable.newFrom({"ObjectInteractionArea": gdjs.Museum4Code.GDObjectInteractionAreaObjects1});
 gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDExitObjects1Objects = Hashtable.newFrom({"Exit": gdjs.Museum4Code.GDExitObjects1});
-gdjs.Museum4Code.eventsList2 = function(runtimeScene) {
+gdjs.Museum4Code.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -401,6 +425,31 @@ if (isConditionTrue_0) {
 {
 
 gdjs.copyArray(runtimeScene.getObjects("PlayerHitbox"), gdjs.Museum4Code.GDPlayerHitboxObjects1);
+gdjs.copyArray(runtimeScene.getObjects("TriggerToNext"), gdjs.Museum4Code.GDTriggerToNextObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDPlayerHitboxObjects1Objects, gdjs.Museum4Code.mapOfGDgdjs_9546Museum4Code_9546GDTriggerToNextObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("BlackOut"), gdjs.Museum4Code.GDBlackOutObjects1);
+/* Reuse gdjs.Museum4Code.GDPlayerHitboxObjects1 */
+{for(var i = 0, len = gdjs.Museum4Code.GDBlackOutObjects1.length ;i < len;++i) {
+    gdjs.Museum4Code.GDBlackOutObjects1[i].getBehavior("Tween").addObjectOpacityTween2("FadeIn", 255, "linear", 0.3, false);
+}
+}{for(var i = 0, len = gdjs.Museum4Code.GDPlayerHitboxObjects1.length ;i < len;++i) {
+    gdjs.Museum4Code.GDPlayerHitboxObjects1[i].activateBehavior("TopDownMovement", false);
+}
+}
+{ //Subevents
+gdjs.Museum4Code.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("PlayerHitbox"), gdjs.Museum4Code.GDPlayerHitboxObjects1);
 gdjs.copyArray(runtimeScene.getObjects("TriggerToSpawn"), gdjs.Museum4Code.GDTriggerToSpawnObjects1);
 
 let isConditionTrue_0 = false;
@@ -417,7 +466,7 @@ gdjs.copyArray(runtimeScene.getObjects("BlackOut"), gdjs.Museum4Code.GDBlackOutO
 }
 }
 { //Subevents
-gdjs.Museum4Code.eventsList0(runtimeScene);} //End of subevents
+gdjs.Museum4Code.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -453,7 +502,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitbox"), gdjs.Museum4Code.GDPlaye
 }{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "untitled [vocals].mp3", 2, true, 0, 1);
 }
 { //Subevents
-gdjs.Museum4Code.eventsList1(runtimeScene);} //End of subevents
+gdjs.Museum4Code.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -672,7 +721,7 @@ gdjs.Museum4Code.GDExitObjects2.length = 0;
 gdjs.Museum4Code.GDImageObjects1.length = 0;
 gdjs.Museum4Code.GDImageObjects2.length = 0;
 
-gdjs.Museum4Code.eventsList2(runtimeScene);
+gdjs.Museum4Code.eventsList3(runtimeScene);
 gdjs.Museum4Code.GDPlayerHitboxObjects1.length = 0;
 gdjs.Museum4Code.GDPlayerHitboxObjects2.length = 0;
 gdjs.Museum4Code.GDPlayerObjects1.length = 0;
