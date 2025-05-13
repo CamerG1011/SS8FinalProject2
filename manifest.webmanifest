@@ -1,0 +1,12 @@
+{
+  "name": "Social Studies Final Project 8",
+  "short_name": "Social Studies Final Project 8",
+  "id": "com.camerg.ssfp8",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
