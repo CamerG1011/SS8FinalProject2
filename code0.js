@@ -92,7 +92,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11165916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9114260);
 }
 }
 if (isConditionTrue_0) {
@@ -119,7 +119,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Right");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9393076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10716244);
 }
 }
 if (isConditionTrue_0) {
@@ -146,7 +146,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9394028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11165916);
 }
 }
 if (isConditionTrue_0) {
