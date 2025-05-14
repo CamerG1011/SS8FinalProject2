@@ -22,7 +22,7 @@ gdjs.SpawnCode.GDVersionObjects2= [];
 
 gdjs.SpawnCode.mapOfGDgdjs_9546SpawnCode_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.SpawnCode.GDPlayerHitboxObjects1});
 gdjs.SpawnCode.mapOfGDgdjs_9546SpawnCode_9546GDTriggerToNextObjects1Objects = Hashtable.newFrom({"TriggerToNext": gdjs.SpawnCode.GDTriggerToNextObjects1});
-gdjs.SpawnCode.asyncCallback10916484 = function (runtimeScene, asyncObjectsList) {
+gdjs.SpawnCode.asyncCallback11756892 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SpawnCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Museum1", false);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
@@ -37,7 +37,7 @@ gdjs.SpawnCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SpawnCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.SpawnCode.asyncCallback10916484(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.SpawnCode.asyncCallback11756892(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -92,7 +92,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9114260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11745556);
 }
 }
 if (isConditionTrue_0) {
@@ -119,7 +119,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Right");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10716244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11746532);
 }
 }
 if (isConditionTrue_0) {
@@ -146,7 +146,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11165916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11747268);
 }
 }
 if (isConditionTrue_0) {
@@ -173,7 +173,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9394884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11749740);
 }
 }
 if (isConditionTrue_0) {
@@ -218,7 +218,7 @@ for (var i = 0, k = 0, l = gdjs.SpawnCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.SpawnCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10911004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11751244);
 }
 }
 }
@@ -254,7 +254,7 @@ for (var i = 0, k = 0, l = gdjs.SpawnCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.SpawnCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10911980);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11752540);
 }
 }
 }
@@ -290,7 +290,7 @@ for (var i = 0, k = 0, l = gdjs.SpawnCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.SpawnCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10913388);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11753796);
 }
 }
 }
@@ -326,7 +326,7 @@ for (var i = 0, k = 0, l = gdjs.SpawnCode.GDPlayerObjects1.length;i<l;++i) {
 gdjs.SpawnCode.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10914644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11755052);
 }
 }
 }

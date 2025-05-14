@@ -36,7 +36,7 @@ gdjs.Museum1Code.GDExitObjects2= [];
 
 gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.Museum1Code.GDPlayerHitboxObjects1});
 gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDTriggerToSpawnObjects1Objects = Hashtable.newFrom({"TriggerToSpawn": gdjs.Museum1Code.GDTriggerToSpawnObjects1});
-gdjs.Museum1Code.asyncCallback10982556 = function (runtimeScene, asyncObjectsList) {
+gdjs.Museum1Code.asyncCallback11825908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum1Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Spawn", false);
 }gdjs.Museum1Code.localVariables.length = 0;
@@ -50,7 +50,7 @@ gdjs.Museum1Code.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Museum1Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Museum1Code.asyncCallback10982556(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Museum1Code.asyncCallback11825908(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -59,7 +59,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 };gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDPlayerHitboxObjects1Objects = Hashtable.newFrom({"PlayerHitbox": gdjs.Museum1Code.GDPlayerHitboxObjects1});
 gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDTriggerToNextObjects1Objects = Hashtable.newFrom({"TriggerToNext": gdjs.Museum1Code.GDTriggerToNextObjects1});
-gdjs.Museum1Code.asyncCallback10983220 = function (runtimeScene, asyncObjectsList) {
+gdjs.Museum1Code.asyncCallback11826572 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum1Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Museum2", false);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
@@ -74,14 +74,14 @@ gdjs.Museum1Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Museum1Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Museum1Code.asyncCallback10983220(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Museum1Code.asyncCallback11826572(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Museum1Code.asyncCallback10986652 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Museum1Code.asyncCallback11830004 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Museum1Code.localVariables);
 {gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 3, 1);
 }gdjs.Museum1Code.localVariables.length = 0;
@@ -95,7 +95,7 @@ gdjs.Museum1Code.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Museum1Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Museum1Code.asyncCallback10986652(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Museum1Code.asyncCallback11830004(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -158,7 +158,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Up");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9413908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11814852);
 }
 }
 if (isConditionTrue_0) {
@@ -185,7 +185,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Right");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9415916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11814540);
 }
 }
 if (isConditionTrue_0) {
@@ -212,7 +212,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Down");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9417412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11816180);
 }
 }
 if (isConditionTrue_0) {
@@ -239,7 +239,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9419156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11818756);
 }
 }
 if (isConditionTrue_0) {
@@ -284,7 +284,7 @@ for (var i = 0, k = 0, l = gdjs.Museum1Code.GDPlayerObjects1.length;i<l;++i) {
 gdjs.Museum1Code.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10976860);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11820260);
 }
 }
 }
@@ -320,7 +320,7 @@ for (var i = 0, k = 0, l = gdjs.Museum1Code.GDPlayerObjects1.length;i<l;++i) {
 gdjs.Museum1Code.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10978100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11821556);
 }
 }
 }
@@ -356,7 +356,7 @@ for (var i = 0, k = 0, l = gdjs.Museum1Code.GDPlayerObjects1.length;i<l;++i) {
 gdjs.Museum1Code.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10979460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11822812);
 }
 }
 }
@@ -392,7 +392,7 @@ for (var i = 0, k = 0, l = gdjs.Museum1Code.GDPlayerObjects1.length;i<l;++i) {
 gdjs.Museum1Code.GDPlayerObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10980716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11824068);
 }
 }
 }
@@ -518,7 +518,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDPlayerHitboxObjects1Objects, gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDObjectInteractionAreaObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10987276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11830628);
 }
 }
 if (isConditionTrue_0) {
@@ -544,7 +544,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "e");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10988596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11831948);
 }
 }
 }
@@ -580,7 +580,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDPlayerHitboxObjects1Objects, gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDObjectInteractionAreaObjects1Objects, true, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10990540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11833892);
 }
 }
 if (isConditionTrue_0) {
@@ -605,7 +605,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Museum1Code.mapOfGDgdjs_9546Museum1Code_9546GDExitObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10992060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11835412);
 }
 }
 }
